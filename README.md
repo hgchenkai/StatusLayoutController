@@ -1,7 +1,6 @@
 **StatusLayoutController**  管理不同数据状态时视图
 
 **使用**
-　　
 　　创建自定义的Options（如果不设置，则使用默认的）
 ```java 
    Options option=new Builder()
@@ -29,7 +28,7 @@
                     }
                 }).build();
 ```
-　　使用
+使用
 ```java
 statusListController.showLoadingView();
 statusListController.showContentView();

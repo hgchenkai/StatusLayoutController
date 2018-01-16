@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_loading"
+        android:title="正在加载"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/menu_empty"
+        android:title="空数据"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/menu_error"
+        android:title="出错"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/menu_success"
+        android:title="加载成功"
+        app:showAsAction="never"/>
+
+</menu>
